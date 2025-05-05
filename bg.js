@@ -7,13 +7,14 @@ chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
       encodeURIComponent(text)
     )).text();
     (data = data.slice(data.indexOf(",", 31) + 3, -10).split('","')).pop();
-    suggest(data.map(v => ({ content: "https://search.yahoo.co.jp/realtime/search?p=" + v, description: v })));
+    suggest(data.map(v => ({ content: v, description: v })));
   }
 });
 chrome.omnibox.onInputEntered.addListener(text =>
   chrome.tabs.query({ active: !0, currentWindow: !0 }, tabs =>
+    text &&
     chrome.tabs.update(tabs[0].id, {
-      url: text ? "https://search.yahoo.co.jp/realtime/search?p=" + text : "https://search.yahoo.co.jp/realtime"
+      url: "https://search.yahoo.co.jp/realtime/search?p=" + text
     })
   )
 );
