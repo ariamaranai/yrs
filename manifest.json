@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "yrts",
+  "name": "yrs",
   "version": "0",
   "description": "Yahoo Japan Realtime Searcher",
   "icons": {
     "128": "128.png"
   },
   "omnibox": {
-    "keyword": "yr"
+    "keyword": "yrs"
   },
   "host_permissions": [
     "<all_urls>"
