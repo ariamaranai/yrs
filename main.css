@@ -1,0 +1,54 @@
+* {
+  border-color: #444 !important;
+}
+.Tweet_TweetContainer__aezGm {
+  border-bottom: 1px solid #444 !important;
+  background-color: #111 !important;
+  color: #ddd !important
+}
+.Tweet_authorName___6Ckk,
+li {
+  color: #bbb !important
+}
+.QuotedTweet_QuotedTweet__XHRkA {
+  border: 1px solid #444 !important;
+  background-color: #111 !important
+}
+.QuotedTweet_header__P9F6k {
+  color: #bbb !important
+}
+.QuotedTweet_text__V11WE {
+  color: #ddd !important
+}
+a {
+  color: #29e !important
+}
+#appprfr,
+#cbz,
+#footer,
+#pop,
+#tabs,
+#totop,
+#train,
+#apppr,
+.mhd,
+.AutoscrollStopped_AutoscrollStopped__5l41_,
+.BestTweet_BestTweet__ayeNG,
+.MainYda_MainYda__t3fDA,
+.SearchBox_SearchBox__bTaTA:after,
+.SubYda_SubYda__klw_s,
+.Trend_Trend__GZ_fj.Trend_excursion__vqQEg .Trend_container__d7dWI ol li a span {
+  display: none !important
+}
+:root,
+#atkey,
+.More_More___s3p1,
+.SearchBox_SearchBox__bTaTA .SearchBox_searchInputWrap__M_KgB,
+.SearchBox_fixedWrap__Y9m9G,
+.SearchBox_searchInput__5LNhz,
+.cl-nofollow,
+.p,
+form {
+  background-color: #111 !important;
+  color: #ddd !important
+}

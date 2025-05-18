@@ -6,8 +6,7 @@ chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
       "&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" +
       encodeURIComponent(text)
     )).text();
-    (data = data.slice(data.indexOf(",", 31) + 3, -10).split('","'));
-    let s = data.length - 1;
+    let s = (data = data.slice(data.indexOf(",", 31) + 3, -10).split('","')).length - 1;
     if (s) {
       let results = Array(s);
       let i = 0;
