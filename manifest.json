@@ -17,7 +17,9 @@
   },
   "content_scripts": [{
     "css": ["main.css"],
+    "js": ["main.js"],
     "matches": ["https://search.yahoo.co.jp/realtime/*"],
+    "world": "MAIN",
     "run_at": "document_start"
   }]
 }
