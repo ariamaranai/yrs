@@ -10,13 +10,13 @@
   display: flow !important;
   border: 0 !important
 }
-.QuotedTweet_QuotedTweet__XHRkA {
-  border: 1px solid #444 !important;
-  background-color: #111 !important
-}
 .Tweet_authorName___6Ckk,
 .QuotedTweet_header__P9F6k {
   color: #bbb !important
+}
+.QuotedTweet_QuotedTweet__XHRkA {
+  border: 1px solid #444 !important;
+  background-color: #111 !important
 }
 .Suggest_text__YXHfG,
 .QuotedTweet_text__V11WE {
@@ -33,11 +33,13 @@ a {
 #totop,
 #train,
 #apppr,
-.Tweet_TweetMenu__BjvZa,/**/
+.Tweet_TweetMenu__BjvZa,
 .mhd,
 .AutoscrollStopped_AutoscrollStopped__5l41_,
 .BestTweet_BestTweet__ayeNG,
 .MainYda_MainYda__t3fDA,
+.SearchBox_qt__LdywO,
+.SearchBox_searchButton__pG_bD,
 .SearchBox_SearchBox__bTaTA:after,
 .SubYda_SubYda__klw_s,
 .Trend_Trend__GZ_fj.Trend_excursion__vqQEg .Trend_container__d7dWI ol li a span {
