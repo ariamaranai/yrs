@@ -6,22 +6,28 @@
   background-color: #111 !important;
   color: #ddd !important
 }
-.Tweet_authorName___6Ckk,
-li {
-  color: #bbb !important
+.Tweet_icon__0dOrJ {
+  display: flow !important;
+  border: 0 !important
 }
 .QuotedTweet_QuotedTweet__XHRkA {
   border: 1px solid #444 !important;
   background-color: #111 !important
 }
+.Tweet_authorName___6Ckk,
 .QuotedTweet_header__P9F6k {
   color: #bbb !important
 }
+.Suggest_text__YXHfG,
 .QuotedTweet_text__V11WE {
   color: #ddd !important
 }
 a {
   color: #29e !important
+}
+li {
+  background-color: #111 !important;
+  color: #bbb !important;
 }
 #appprfr,
 #cbz,
