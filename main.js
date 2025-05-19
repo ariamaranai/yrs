@@ -1,5 +1,44 @@
-// var z = {};
+MediaSource.isTypeSupported = () => 1;
 {
+  Element.prototype.addEventListener = function (a, b, c) {
+    switch (a) {
+      case "auxclick":
+      case "contextmenu":
+      case "dblclick":
+      case "dragend":
+      case "dragenter":
+      case "dragexit":
+      case "dragleave":
+      case "dragover":
+      case "dragstart":
+      case "drop":
+      case "encrypted":
+      case "error":
+      case "gotpointercapture":
+      case "invalid":
+      case "lostpointercapture":
+      case "pointercancel":
+      case "pointerdown":
+      case "pointermove":
+      case "pointerout":
+      case "pointerover":
+      case "pointerup":
+      case "test":
+      case "touchcancel":
+      case "touchend":
+      case "touchmove":
+      case "touchstart":
+      case "volumechange":
+      case "webkitAnimationEnd":
+      case "webkitAnimationIteration":
+      case "webkitAnimationStart":
+      case "webkitpresentationmodechanged":
+        return 0;
+      default:
+        return EventTarget.prototype.addEventListener.call(this, a, b, c);
+    }
+  }
+  // var z = {};
   let has = (a, b) => {
     switch (b) {
       case "alt":
