@@ -25,10 +25,6 @@
 a {
   color: #29e !important
 }
-li {
-  background-color: #111 !important;
-  color: #bbb !important;
-}
 #appprfr,
 #cbz,
 #footer,
@@ -37,6 +33,7 @@ li {
 #totop,
 #train,
 #apppr,
+.Tweet_TweetMenu__BjvZa,/**/
 .mhd,
 .AutoscrollStopped_AutoscrollStopped__5l41_,
 .BestTweet_BestTweet__ayeNG,
@@ -54,6 +51,7 @@ li {
 .SearchBox_searchInput__5LNhz,
 .cl-nofollow,
 .p,
+li,
 form {
   background-color: #111 !important;
   color: #ddd !important
