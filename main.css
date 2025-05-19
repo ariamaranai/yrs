@@ -1,9 +1,9 @@
 * {
-  border-color: #444 !important;
+  border-color: #444 !important
 }
 .Tweet_TweetContainer__aezGm {
   border-bottom: 1px solid #444 !important;
-  background-color: #111 !important;
+  background-color: #000 !important;
   color: #ddd !important
 }
 .Tweet_icon__0dOrJ {
@@ -11,19 +11,22 @@
   border: 0 !important
 }
 .Tweet_authorName___6Ckk,
-.QuotedTweet_header__P9F6k {
-  color: #bbb !important
+.QuotedTweet_header__P9F6k,
+.Trend_Trend__GZ_fj > h1 {
+  color: #ccc !important
 }
 .QuotedTweet_QuotedTweet__XHRkA {
   border: 1px solid #444 !important;
-  background-color: #111 !important
-}
-.Suggest_text__YXHfG,
-.QuotedTweet_text__V11WE {
-  color: #ddd !important
+  background-color: #000 !important
 }
 a {
   color: #29e !important
+}
+.Suggest_text__YXHfG,
+.QuotedTweet_text__V11WE,
+.Tab_option__9MxnV,
+p {
+  color: #ddd !important
 }
 #appprfr,
 #cbz,
@@ -55,6 +58,6 @@ a {
 .p,
 li,
 form {
-  background-color: #111 !important;
+  background-color: #000 !important;
   color: #ddd !important
 }
