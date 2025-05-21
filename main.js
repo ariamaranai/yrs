@@ -78,17 +78,22 @@ navigator.sendBeacon = () => 0;
       case "onMouseLeave":
       case "onMouseMove":
       case "onMouseUp":
+      case "onPlaybackRateChange":
       case "onTouchEnd":
       case "onTouchMove":
       case "onTouchStart":
       case "orientation":
       case "outerRadius":
       case "photoMode":
+      case "playbackRate":
       case "radius":
       case "referer":
+      case "rel":
       case "role":
       case "shape":
       case "shiftKey":
+      case "showSensitiveMask":
+      case "showViolationReport":
       case "tabIndex":
       // case "xAxis":
       // case "xAxisId":
