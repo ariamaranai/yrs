@@ -18,6 +18,10 @@ navigator.sendBeacon = () => 0;
       case "gotpointercapture":
       case "invalid":
       case "lostpointercapture":
+      case "mousedown":
+      case "mouseout":
+      case "mouseover":
+      case "mouseup":
       case "pointercancel":
       case "pointerdown":
       case "pointermove":
@@ -61,14 +65,23 @@ navigator.sendBeacon = () => 0;
       case "color":
       case "ctrlKey":
       case "data-test":
+      case "focusable":
       case "maxRadius":
       case "metaKey":
       case "middleRadius":
+      case "msTransform":
+      case "mtestid":
       case "onAnimationEnd":
       case "onAnimationStart":
+      case "onMouseDown":
+      case "onMouseEnter":
+      case "onMouseLeave":
+      case "onMouseMove":
+      case "onMouseUp":
       case "onTouchEnd":
       case "onTouchMove":
       case "onTouchStart":
+      case "orientation":
       case "outerRadius":
       case "photoMode":
       case "radius":
