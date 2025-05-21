@@ -1,4 +1,5 @@
 MediaSource.isTypeSupported = () => 1;
+navigator.sendBeacon = () => 0;
 {
   Element.prototype.addEventListener = function (a, b, c) {
     switch (a) {
@@ -41,8 +42,13 @@ MediaSource.isTypeSupported = () => 1;
   // var z = {};
   let has = (a, b) => {
     switch (b) {
+      case "WebkitAnimation":
+      case "WebkitTransform":
       case "alt":
       case "altKey":
+      case "aria-hidden":
+      case "aria-label":
+      case "aria-live":
       case "androidTablet":
       case "animation":
       case "animationBegin":
@@ -55,11 +61,16 @@ MediaSource.isTypeSupported = () => 1;
       case "color":
       case "ctrlKey":
       case "data-test":
+      case "maxRadius":
+      case "metaKey":
+      case "middleRadius":
       case "onAnimationEnd":
       case "onAnimationStart":
       case "onTouchEnd":
       case "onTouchMove":
       case "onTouchStart":
+      case "outerRadius":
+      case "photoMode":
       case "radius":
       case "referer":
       case "role":
