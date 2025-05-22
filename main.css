@@ -23,6 +23,7 @@ a {
   color: #29e !important
 }
 .Suggest_text__YXHfG,
+.History_text__k8Kc8,
 .QuotedTweet_text__V11WE,
 .Tab_option__9MxnV,
 p {
@@ -31,6 +32,7 @@ p {
 #appprfr,
 #cbz,
 #footer,
+#graph,
 #pop,
 #tabs,
 #totop,
@@ -60,4 +62,8 @@ li,
 form {
   background-color: #000 !important;
   color: #ddd !important
+}
+#search {
+  position: fixed;
+  top: 8px
 }

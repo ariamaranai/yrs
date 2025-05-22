@@ -79,6 +79,7 @@ navigator.sendBeacon = () => 0;
       case "middleRadius":
       case "msTransform":
       case "mtestid":
+      // case "offset":
       case "onAnimationEnd":
       case "onAnimationStart":
       case "onMouseDown":
@@ -104,6 +105,7 @@ navigator.sendBeacon = () => 0;
       case "shiftKey":
       case "showSensitiveMask":
       case "showViolationReport":
+      case "stopColor":
       case "tabIndex":
       // case "xAxis":
       // case "xAxisId":
