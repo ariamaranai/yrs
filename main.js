@@ -3,9 +3,15 @@ navigator.sendBeacon = () => 0;
 {
   Element.prototype.addEventListener = function (a, b, c) {
     switch (a) {
+      case "animationend":
+      case "animationiteration":
+      case "animationstart":
       case "auxclick":
       case "contextmenu":
+      case "copy":
+      case "cut":
       case "dblclick":
+      case "drag":
       case "dragend":
       case "dragenter":
       case "dragexit":
@@ -19,9 +25,11 @@ navigator.sendBeacon = () => 0;
       case "invalid":
       case "lostpointercapture":
       case "mousedown":
+      case "mousemove":
       case "mouseout":
       case "mouseover":
       case "mouseup":
+      case "paste":
       case "pointercancel":
       case "pointerdown":
       case "pointermove":
@@ -89,6 +97,8 @@ navigator.sendBeacon = () => 0;
       case "radius":
       case "referer":
       case "rel":
+      case "renderSensitiveMask":
+      case "renderViolationReport":
       case "role":
       case "shape":
       case "shiftKey":
