@@ -54,6 +54,8 @@ navigator.sendBeacon = () => 0;
   // var z = {};
   let has = (a, b) => {
     switch (b) {
+      case "MozAnimation":
+      case "MozTransform":
       case "WebkitAnimation":
       case "WebkitTransform":
       case "alt":
@@ -70,18 +72,22 @@ navigator.sendBeacon = () => 0;
       case "autoCapitalize":
       case "autoComplete":
       case "autoCorrect":
+      case "endAngle":
       case "color":
       case "ctrlKey":
       case "data-test":
       case "focusable":
+      case "loop":
       case "maxRadius":
       case "metaKey":
       case "middleRadius":
+      case "minAngle":
       case "msTransform":
       case "mtestid":
       // case "offset":
       case "onAnimationEnd":
       case "onAnimationStart":
+      case "onError":
       case "onMouseDown":
       case "onMouseEnter":
       case "onMouseLeave":
@@ -105,6 +111,7 @@ navigator.sendBeacon = () => 0;
       case "shiftKey":
       case "showSensitiveMask":
       case "showViolationReport":
+      case "startAngle":
       case "stopColor":
       case "tabIndex":
       // case "xAxis":
