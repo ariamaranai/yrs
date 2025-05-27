@@ -72,10 +72,12 @@ navigator.sendBeacon = () => 0;
       case "autoCapitalize":
       case "autoComplete":
       case "autoCorrect":
+      case "autoPlay":
       case "endAngle":
       case "color":
       case "ctrlKey":
       case "data-test":
+      case "disablePictureInPicture":
       case "focusable":
       case "loop":
       case "maxRadius":
@@ -84,6 +86,7 @@ navigator.sendBeacon = () => 0;
       case "minAngle":
       case "msTransform":
       case "mtestid":
+      case "muted":
       // case "offset":
       case "onAnimationEnd":
       case "onAnimationStart":
@@ -101,6 +104,7 @@ navigator.sendBeacon = () => 0;
       case "outerRadius":
       case "photoMode":
       case "playbackRate":
+      case "playsinline":
       case "radius":
       case "referer":
       case "rel":
@@ -114,6 +118,8 @@ navigator.sendBeacon = () => 0;
       case "startAngle":
       case "stopColor":
       case "tabIndex":
+      case "videoMode":
+      case "volume":
       // case "xAxis":
       // case "xAxisId":
       case "xmlns":
