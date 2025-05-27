@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "priority": 189999,
+    "priority": 1899999,
     "action": {
       "type": "block"
     },
@@ -10,6 +10,20 @@
       "requestMethods": ["get"],
       "domainType": "thirdParty",
       "urlFilter": "|https://s.yimg.jp/images/ds/cl/ds-custom-log",
+      "isUrlFilterCaseSensitive": true
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1899998,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["script"],
+      "requestMethods": ["get"],
+      "domainType": "thirdParty",
+      "urlFilter": "|https://s.yimg.jp/images/approach/jslib/deeplink",
       "isUrlFilterCaseSensitive": true
     }
   }

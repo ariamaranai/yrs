@@ -140,3 +140,4 @@ navigator.sendBeacon = () => 0;
     a.tagName != "SCRIPT" && //a.src.includes("highlight")) ||
     document.body.insertBefore(a, null);
 }
+YAHOO = { JP: { Approach: () => 0 }};
