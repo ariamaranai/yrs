@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 189999,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["script"],
+      "requestMethods": ["get"],
+      "domainType": "thirdParty",
+      "urlFilter": "|https://s.yimg.jp/images/ds/cl/ds-custom-log",
+      "isUrlFilterCaseSensitive": true
+    }
+  }
+]
