@@ -129,4 +129,8 @@ navigator.sendBeacon = () => 0;
   }
   Object.prototype.hasOwnProperty = function (a) { return has(this, a) }
   Object.prototype.hasOwnProperty.call = has;
+
+  HTMLBodyElement.prototype.appendChild = a =>
+    a.tagName != "SCRIPT" && //a.src.includes("highlight")) ||
+    document.body.insertBefore(a, null);
 }
