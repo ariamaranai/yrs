@@ -79,6 +79,8 @@ navigator.sendBeacon = () => 0;
       case "data-test":
       case "disablePictureInPicture":
       case "focusable":
+      case "inAmpMode":
+      case "isAnimationActive":
       case "loop":
       case "maxRadius":
       case "metaKey":

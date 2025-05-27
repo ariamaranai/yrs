@@ -19,7 +19,7 @@
   border: 1px solid #444 !important;
   background-color: #000 !important
 }
-a {
+:any-link {
   color: #29e !important
 }
 .Suggest_text__YXHfG,
