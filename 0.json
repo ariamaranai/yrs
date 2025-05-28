@@ -9,7 +9,7 @@
       "resourceTypes": ["script"],
       "requestMethods": ["get"],
       "domainType": "thirdParty",
-      "urlFilter": "|https://s.yimg.jp/images/ds/cl/ds-custom-log",
+      "urlFilter": "|https://s.yimg.jp/images/ds/",
       "isUrlFilterCaseSensitive": true
     }
   },
