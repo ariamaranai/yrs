@@ -74,6 +74,9 @@ navigator.sendBeacon = () => 0;
       case "autoCorrect":
       case "autoPlay":
       case "endAngle":
+      case "clipPath":
+      case "clipPathId":
+      case "clipRule":
       case "color":
       case "ctrlKey":
       case "data-test":
@@ -112,6 +115,7 @@ navigator.sendBeacon = () => 0;
       case "placeholder":
       case "playbackRate":
       case "playsinline":
+      case "points":
       case "radius":
       case "referer":
       case "rel":
