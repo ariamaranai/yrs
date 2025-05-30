@@ -81,6 +81,9 @@ navigator.sendBeacon = () => 0;
       case "focusable":
       case "inAmpMode":
       case "isAnimationActive":
+      case "login":
+      case "loginDoneUrl": 
+      case "loginSrc":
       case "loop":
       case "maxRadius":
       case "metaKey":
@@ -98,6 +101,7 @@ navigator.sendBeacon = () => 0;
       case "onMouseLeave":
       case "onMouseMove":
       case "onMouseUp":
+      case "onMuteTweet":
       case "onPlaybackRateChange":
       case "onTouchEnd":
       case "onTouchMove":
@@ -105,6 +109,7 @@ navigator.sendBeacon = () => 0;
       case "orientation":
       case "outerRadius":
       case "photoMode":
+      case "placeholder":
       case "playbackRate":
       case "playsinline":
       case "radius":
