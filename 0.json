@@ -1,7 +1,21 @@
 [
   {
     "id": 1,
-    "priority": 1899999,
+    "priority": 18999999,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["script"],
+      "requestMethods": ["get"],
+      "domainType": "thirdParty",
+      "urlFilter": "|https://yads.c.yimg",
+      "isUrlFilterCaseSensitive": true
+    }
+  },
+  {
+    "id": 2,
+    "priority": 18999998,
     "action": {
       "type": "block"
     },
@@ -14,8 +28,8 @@
     }
   },
   {
-    "id": 2,
-    "priority": 1899998,
+    "id": 3,
+    "priority": 18999997,
     "action": {
       "type": "block"
     },
