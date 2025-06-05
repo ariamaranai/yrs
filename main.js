@@ -73,6 +73,7 @@ navigator.sendBeacon = () => 0;
       case "autoComplete":
       case "autoCorrect":
       case "autoPlay":
+      case "directMuted":
       case "endAngle":
       case "clipPath":
       case "clipPathId":
@@ -119,6 +120,7 @@ navigator.sendBeacon = () => 0;
       case "radius":
       case "referer":
       case "rel":
+      case "renderMute":
       case "renderSensitiveMask":
       case "renderViolationReport":
       case "role":
