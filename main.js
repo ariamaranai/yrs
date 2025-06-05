@@ -58,6 +58,7 @@ navigator.sendBeacon = () => 0;
       case "MozTransform":
       case "WebkitAnimation":
       case "WebkitTransform":
+      case "addMuteUser":
       case "alt":
       case "altKey":
       case "aria-hidden":
@@ -95,6 +96,8 @@ navigator.sendBeacon = () => 0;
       case "minAngle":
       case "msTransform":
       case "mtestid":
+      case "muteUsersCount":
+      // case "muteState":
       case "muted":
       // case "offset":
       case "onAnimationEnd":
@@ -112,6 +115,7 @@ navigator.sendBeacon = () => 0;
       case "onTouchStart":
       case "orientation":
       case "outerRadius":
+      case "patrol":
       case "photoMode":
       case "placeholder":
       case "playbackRate":
