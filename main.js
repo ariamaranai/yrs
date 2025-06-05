@@ -126,11 +126,14 @@ navigator.sendBeacon = () => 0;
       case "role":
       case "shape":
       case "shiftKey":
+      case "showMuteMenuList":
       case "showSensitiveMask":
       case "showViolationReport":
       case "startAngle":
       case "stopColor":
+      case "strokeDasharray":
       case "tabIndex":
+      case "textAnchor":
       case "videoMode":
       case "volume":
       // case "xAxis":
