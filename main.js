@@ -84,6 +84,7 @@ navigator.sendBeacon = () => 0;
       case "data-test":
       case "disablePictureInPicture":
       case "focusable":
+      case "httpEquiv":
       case "inAmpMode":
       case "isAnimationActive":
       case "login":
@@ -102,6 +103,8 @@ navigator.sendBeacon = () => 0;
       // case "offset":
       case "onAnimationEnd":
       case "onAnimationStart":
+      case "onDisablePIP":
+      case "onEnablePIP":
       case "onError":
       case "onMouseDown":
       case "onMouseEnter":
@@ -117,13 +120,16 @@ navigator.sendBeacon = () => 0;
       case "outerRadius":
       case "patrol":
       case "photoMode":
+      case "pip":
       case "placeholder":
       case "playbackRate":
       case "playsinline":
       case "points":
+      case "previewTabIndex":
       case "radius":
       case "referer":
       case "rel":
+      // case "renderContactMenuButton":
       case "renderMute":
       case "renderSensitiveMask":
       case "renderViolationReport":
