@@ -74,6 +74,8 @@ navigator.sendBeacon = () => 0;
       case "autoComplete":
       case "autoCorrect":
       case "autoPlay":
+      case "bestTweet":
+      case "bestTweetLabel":
       case "directMuted":
       case "endAngle":
       case "clipPath":
@@ -87,6 +89,7 @@ navigator.sendBeacon = () => 0;
       case "httpEquiv":
       case "inAmpMode":
       case "isAnimationActive":
+      case "livetest":
       case "login":
       case "loginDoneUrl": 
       case "loginSrc":

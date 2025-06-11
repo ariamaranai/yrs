@@ -24,6 +24,7 @@
       "requestMethods": ["get"],
       "domainType": "thirdParty",
       "urlFilter": "|https://s.yimg.jp/images/ds/",
+      "initiatorDomains": ["search.yahoo.co.jp"],
       "isUrlFilterCaseSensitive": true
     }
   },
