@@ -1,6 +1,9 @@
 * {
   border-color: #444 !important
 }
+:root {
+  scrollbar-gutter: stable
+}
 .Tweet_TweetContainer__aezGm {
   border-bottom: 1px solid #444 !important;
   background-color: #000 !important;
@@ -58,6 +61,7 @@ p {
 .SearchBox_SearchBox__bTaTA .SearchBox_searchInputWrap__M_KgB,
 .SearchBox_fixedWrap__Y9m9G,
 .SearchBox_searchInput__5LNhz,
+.SearchBox_clearButton__pz8Ig,
 .cl-nofollow,
 .p,
 li,

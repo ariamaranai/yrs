@@ -74,10 +74,13 @@ navigator.sendBeacon = () => 0;
       case "autoComplete":
       case "autoCorrect":
       case "autoPlay":
-      case "bestTweet":
+      // case "bestTweet":
       case "bestTweetLabel":
+      case "data-cl-params":
+      case "data-mhd":
       case "directMuted":
       case "endAngle":
+      case "cl-nofollow":
       case "clipPath":
       case "clipPathId":
       case "clipRule":
@@ -96,6 +99,7 @@ navigator.sendBeacon = () => 0;
       case "loop":
       case "maxRadius":
       case "metaKey":
+      case "metaLink":
       case "middleRadius":
       case "minAngle":
       case "msTransform":
@@ -147,6 +151,7 @@ navigator.sendBeacon = () => 0;
       case "strokeDasharray":
       case "tabIndex":
       case "textAnchor":
+      case "tlLink":
       case "videoMode":
       case "volume":
       // case "xAxis":
