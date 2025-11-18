@@ -51,7 +51,7 @@ navigator.sendBeacon = () => 0;
         return EventTarget.prototype.addEventListener.call(this, a, b, c);
     }
   }
-  // var z = {};
+  //var z = {};
   let has = (a, b) => {
     switch (b) {
       case "MozAnimation":

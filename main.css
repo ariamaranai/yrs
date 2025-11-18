@@ -2,6 +2,7 @@
   border-color: #444 !important
 }
 :root {
+  overflow-x: clip;
   scrollbar-gutter: stable
 }
 .Tweet_TweetContainer__aezGm {
@@ -40,6 +41,7 @@ p {
 #tabs,
 #totop,
 #train,
+#matometl,
 #apppr,
 .Tweet_TweetMenu__BjvZa,
 .mhd,
