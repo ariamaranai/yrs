@@ -6,10 +6,9 @@ chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
     if (len) {
       let s = 0;
       let i = 0;
-      while (
+      while (i < len)
         data[i] = { content: s = data[i], description: s },
-        ++i < len
-      );
+        ++i;
       suggest(data);
     }
   }
