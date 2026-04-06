@@ -10,6 +10,7 @@
     "keyword": "yrs"
   },
   "permissions": [
+    "contextMenus",
     "declarativeNetRequest"
   ],
   "host_permissions": [
