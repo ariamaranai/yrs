@@ -13,7 +13,7 @@ chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
       data[i] = { content: s, description: s };
     }
     data.pop();
-    suggest(data);
+    return suggest(data);
   } catch {}
 });
 chrome.omnibox.onInputEntered.addListener(text =>

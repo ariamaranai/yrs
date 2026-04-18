@@ -1,6 +1,7 @@
 MediaSource.isTypeSupported = () => 1;
 navigator.sendBeacon = () => 0;
 {
+  let _addEventListener = EventTarget.prototype.addEventListener;
   Element.prototype.addEventListener = function (a, b, c) {
     switch (a) {
       case "animationend":
@@ -48,7 +49,7 @@ navigator.sendBeacon = () => 0;
       case "webkitpresentationmodechanged":
         return 0;
       default:
-        return EventTarget.prototype.addEventListener.call(this, a, b, c);
+        return _addEventListener.call(this, a, b, c);
     }
   }
   //var z = {};
@@ -171,7 +172,7 @@ navigator.sendBeacon = () => 0;
   Object.prototype.hasOwnProperty.call = has;
 
   HTMLBodyElement.prototype.appendChild = a =>
-    a.tagName != "SCRIPT" && //a.src.includes("highlight")) ||
+    a instanceof HTMLScriptElement || //a.src.includes("highlight")) ||
     document.body.insertBefore(a, null);
 }
 YAHOO = { JP: { Approach: () => 0 }};
