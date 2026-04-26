@@ -17,7 +17,7 @@ chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
 });
 chrome.omnibox.onInputEntered.addListener(text =>
   chrome.tabs.query({ active: !0, currentWindow: !0 }, tabs =>
-    text && chrome.tabs.update(tabs[0].id, { url: "https://search.yahoo.co.jp/realtime/search?p=" + text })
+    text && chrome.tabs.update(tabs[0].id, { url: "https://search.yahoo.co.jp/realtime/search?p=" + encodeURIComponent(text) })
   )
 );
 chrome.runtime.onInstalled.addListener(() =>
