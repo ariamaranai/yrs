@@ -4,15 +4,14 @@ chrome.contextMenus.onClicked.addListener((info, tab) =>
     index: tab.index + 1
   })
 );
-chrome.omnibox.onInputChanged.addListener(async (text, suggest) => {
+chrome.omnibox.onInputChanged.addListener(async (text, suggest, $0) => {
   try {
     let data = await (await fetch("https://assist-search.yahooapis.jp/SuggestSearchService/V3/webassistSearch?results=9&callback=fetchSuggest_2147483647&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" + encodeURIComponent(text))).text();
     let i = (data = JSON.parse(data.slice(data.indexOf(",", 31) + 1, -8))).length;
     if (i) {
-      let s;
       while (
-        s = data[--i],
-        data[i] = { content: s, description: s },
+        $0 = data[--i],
+        data[i] = { content: $0, description: $0 },
         i
       );
     }
