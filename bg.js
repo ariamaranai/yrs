@@ -6,7 +6,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) =>
     index: tab.index + 1
   })
 );
-chrome.omnibox.onInputChanged.addListener((text, suggest) => {
+chrome.omnibox.onInputChanged.addListener((text, suggest) =>
   fetch("https://assist-search.yahooapis.jp/SuggestSearchService/V3/webassistSearch?callback=fetchSuggest_2e9&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" + encodeURIComponent(text))
   .then(r => r.text())
   .then((r, $0) => {
@@ -18,8 +18,8 @@ chrome.omnibox.onInputChanged.addListener((text, suggest) => {
       i
     );
     return suggest(r);
-  });
-});
+  })
+);
 chrome.omnibox.onInputEntered.addListener(text =>
   chrome.tabs.query({ active: !0, currentWindow: !0 }, tabs =>
     text && chrome.tabs.update(
