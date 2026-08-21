@@ -7,7 +7,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) =>
   })
 );
 chrome.omnibox.onInputChanged.addListener((text, suggest) =>
-  fetch("https://assist-search.yahooapis.jp/SuggestSearchService/V3/webassistSearch?callback=fetchSuggest_2e9&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" + encodeURIComponent(text))
+  fetch("https://assist-search.yahooapis.jp/SuggestSearchService/V3/webassistSearch?results=9&callback=fetchSuggest_2e9&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" + encodeURIComponent(text))
   .then(r => r.text())
   .then((r, $0) => {
     let i = (r = JSON.parse(r.slice(r.indexOf(",", 31) + 1, -8))).length;
