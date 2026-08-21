@@ -6,10 +6,10 @@ chrome.contextMenus.onClicked.addListener((info, tab) =>
     index: tab.index + 1
   })
 );
-chrome.omnibox.onInputChanged.addListener((text, suggest, $0) => {
+chrome.omnibox.onInputChanged.addListener((text, suggest) => {
   fetch("https://assist-search.yahooapis.jp/SuggestSearchService/V3/webassistSearch?callback=fetchSuggest_2e9&src=realtime&appid=dj0zaiZpPVU5MGlSOUZ4cHVLbCZzPWNvbnN1bWVyc2VjcmV0Jng9ZGQ-&query=" + encodeURIComponent(text))
   .then(r => r.text())
-  .then(r => {
+  .then((r, $0) => {
     let i = (r = JSON.parse(r.slice(r.indexOf(",", 31) + 1, -8))).length;
     if (!i)
       return;
