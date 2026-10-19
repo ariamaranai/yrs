@@ -1,6 +1,6 @@
 onunhandledrejection = e => e.preventDefault();
 {
-  let { contextMenus, omnibox, tabs } = chrome;
+  let { contextMenus, omnibox, runtime, tabs } = chrome;
   contextMenus.onClicked.addListener((info, tab) =>
     tabs.create({
       url:"https://search.yahoo.co.jp/realtime/search?p=" + info.selectionText,
