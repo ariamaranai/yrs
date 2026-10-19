@@ -26,10 +26,10 @@
 a {
   color: #29e !important
 }
-.Suggest_text__YXHfG,
-.History_text__k8Kc8,
-.QuotedTweet_text__V11WE,
-.Tab_option__9MxnV,
+[class^=Suggest_text_],
+[class^=History_text_],
+[class^=QuotedTweet_text_],
+[class^=Tab_option_],
 p {
   color: #ddd !important
 }
