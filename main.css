@@ -5,25 +5,25 @@
   overflow-x: clip;
   scrollbar-gutter: stable
 }
-.Tweet_TweetContainer__aezGm {
+[class^=Tweet_TweetContainer_] {
   border-bottom: 1px solid #444 !important;
   background-color: #000 !important;
   color: #ddd !important
 }
-.Tweet_icon__0dOrJ {
+[class^=Tweet_icon_] {
   display: block !important;
   border: 0 !important
 }
-.Tweet_authorName___6Ckk,
-.QuotedTweet_header__P9F6k,
-.Trend_Trend__GZ_fj > h1 {
+[class^=Tweet_authorName_],
+[class^=QuotedTweet_header_],
+[class^=Trend_Trend_] > h1 {
   color: #ccc !important
 }
-.QuotedTweet_QuotedTweet__XHRkA {
+[class^=QuotedTweet_QuotedTweet_] {
   border: 1px solid #444 !important;
   background-color: #000 !important
 }
-:any-link {
+a {
   color: #29e !important
 }
 .Suggest_text__YXHfG,
@@ -43,27 +43,27 @@ p {
 #train,
 #matometl,
 #apppr,
-.Tweet_TweetMenu__BjvZa,
+[class^=Tweet_TweetMenu_],
 .mhd,
-.AutoscrollStopped_AutoscrollStopped__5l41_,
-.BestTweet_BestTweet__ayeNG,
-.MainYda_MainYda__t3fDA,
-.SearchBox_qt__LdywO,
-.SearchBox_searchButton__pG_bD,
-.SearchBox_SearchBox__bTaTA:after,
-.SubYda_SubYda__klw_s,
-.Trend_Trend__GZ_fj.Trend_excursion__vqQEg .Trend_container__d7dWI ol li a span {
+[class^=AutoscrollStopped_AutoscrollStopped_],
+[class^=BestTweet_BestTweet_],
+[class^=MainYda_MainYda_],
+[class^=SearchBox_qt_],
+[class^=SearchBox_searchButton_],
+[class^=SearchBox_SearchBox_]:after,
+[class^=SubYda_SubYda_],
+[class^=Trend_Trend_][class^=Trend_excursion_] [class^=Trend_container_] ol li a span {
   display: none !important
 }
 :root,
 #atkey,
 #nomatch,
 #mtype *,
-.More_More___s3p1,
-.SearchBox_SearchBox__bTaTA .SearchBox_searchInputWrap__M_KgB,
-.SearchBox_fixedWrap__Y9m9G,
-.SearchBox_searchInput__5LNhz,
-.SearchBox_clearButton__pz8Ig,
+[class^=More_More_],
+[class^=SearchBox_SearchBox_] [class^=SearchBox_searchInputWrap_],
+[class^=SearchBox_fixedWrap_],
+[class^=SearchBox_searchInput_],
+[class^=SearchBox_clearButton_],
 .cl-nofollow,
 .p,
 li,
