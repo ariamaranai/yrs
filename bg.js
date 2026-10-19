@@ -22,9 +22,9 @@ onunhandledrejection = e => e.preventDefault();
     })
   );
   omnibox.onInputEntered.addListener(text =>
-    tabs.query({ active: !0, currentWindow: !0 }, tabs =>
+    tabs.query({ active: !0, currentWindow: !0 }, t =>
       text && tabs.update(
-        tabs[0].id,
+        t[0].id,
         { url: "https://search.yahoo.co.jp/realtime/search?p=" + encodeURIComponent(text) }
       )
     )
